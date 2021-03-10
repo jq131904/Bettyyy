@@ -1,0 +1,689 @@
+body{  
+         
+background-color: #ffffff;
+
+}
+@font-face{
+  font-family:'Gilroy-Extrabold';
+  src: url(../fuentes/Gilroy-ExtraBold.ttf)
+  }
+  @font-face{
+    font-family:'Gilroy-Medium';
+    src: url(../fuentes/Gilroy-Medium.ttf)
+    }
+body h1{
+  font-family: 'Gilroy-Extrabold';
+}
+.box-de-hamburguesas-arriba p{
+ color: #7d8185;
+}
+body p{
+  font-family: 'Gilroy-Medium';
+  
+}
+body h3{
+  font-family: 'Gilroy-Extrabold';
+   
+
+}
+body h4{
+  font-family: 'Gilroy-Medium';
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.contenedor{
+  padding: 60px 0;
+  width: 100%;
+  max-width:1000px ;
+  margin: auto;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Combined-Shape{
+width: 220px;
+height: 150;
+
+}
+.contenedor2{
+  padding: 0;
+  width: 100%;
+  max-width:1000px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Gilroy;
+  font-size :24px;
+}
+ 
+.text-style-1{
+ 
+  color: #fa394a;
+}
+
+.contenedor-Bitmap{
+
+  padding: 40px 0;
+  width: 100%;
+  height: 650px;
+  max-width:1000px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Bitmap{
+  width: 45%;
+  height: 80%;
+
+}
+.contenedor-Rectangle{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 220px;
+  
+}
+
+.Rectangle {
+  width: 80%;
+  height: 70%;
+  border-radius: 40px;
+  background-color: #ffc648;
+display: flex;
+align-items: center;
+ 
+}
+.Rectangle-b {
+   
+  height: 100%;
+  width: 95%;
+  transform: rotate(-3deg);
+  opacity: 0.33;
+  border-radius: 40px;
+  background-color: #ffc648;
+}
+.Escanear-otro-cdigo{
+
+  font-size: 45px;
+  color: #6c757d;
+  text-align: center;
+}
+
+.contenedor-wishes{
+ 
+ padding-top: 40px;  
+  width: 100%;
+  height: 400px;
+  max-width:1000px ;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 0;
+overflow: hidden;
+ 
+}
+.food-wishes{
+position: absolute;
+  width: 75%;
+  height: 47%;
+     
+}
+.Ver-men {
+   position: absolute;
+padding-left: 310px;
+    
+  font-size: 45px;
+  color: #dee9f5;
+}
+  /*Secion de menu de avila burger*/
+  .header{
+  width: 100%;
+height:12vh;
+background:cover;
+background-color: #fff;
+position: fixed;
+z-index:1000;
+top:0;
+  box-shadow: 0 20px 20px -6px rgba(173, 181, 189, 0.2);
+  }
+.Group{
+     width: 80px;
+     height:80px;
+}
+.Combined-Shape2{
+  width:186px;
+  height: 75px;
+  }
+
+.logo-box-1{
+position:absolute;
+top:50px;
+left:40px;
+
+}
+.logo-box-2{
+  position:absolute;
+  top:50px;
+  left:860px;
+}
+ .box-menu{
+   position: absolute;
+   top: 180px;
+   left: 40px ;
+ }
+ .Group-3{
+
+  width: 70px;
+  height: 70px;
+ }
+ .menu-2 p {
+   font-size: 45px;
+ }
+ .menu-2 {
+   display: flex;
+ }
+ .titulo-menu-box{
+  padding-top: 280px;
+  padding-left: 30px;
+  padding-bottom:40px;
+ width:750px;
+height:250px;
+
+ 
+}
+ .titulo-menu-box h1{
+   font-size: 80px;
+ }
+ .contenedor-rcm{
+  width:100%;
+  height:600px;
+  padding-top: 200px;
+  background: rgb(255, 255, 255);
+margin-bottom: 100px;
+padding-left: 20px;
+ }
+ .Mask-menu {
+  width: 100%;
+  height: 420px;
+  padding: 0 0 0 0px;
+  border-radius:40px;
+  border: solid 2px #ffc648;
+  background-color: #ffc648;
+  display: flex;
+  justify-content: baseline;
+  position: relative;
+  z-index:2;
+  overflow: hidden;
+}
+.Mask-menu-fondo{
+  width: 920px;
+  height: 420px;
+  transform: rotate(-6deg);
+  border-radius: 40px;
+  background-color: rgba(255, 174, 0, 0.33);
+  position: absolute;
+  z-index:1;
+top: 520px;
+left: 35px;
+}
+/*Fondo de Mask menu*/
+.Mask-menu h1{
+font-size: 60px;
+padding-left: 10px;
+
+}
+.Mask-menu {
+  font-size: 40px;
+}
+.Mask-p{
+  width: 400px;
+padding-left: 60px;
+}
+ 
+  
+.Bitmap-rcm {
+  width: 158px;
+  height: 156px;
+ 
+  margin: 0 0 0 0;
+}
+.betty-food-burger-icon{
+  
+width: 400px;
+height: 400px;
+ 
+}
+.f{
+  padding-left: 40px;
+   padding-top: 60px;
+  
+}
+.f2{
+   padding-top: 50px;
+ 
+}
+
+.precio{
+   position: absolute;
+  top: 320px;
+  left:40px
+}
+.capa{
+  
+  width: 80%;
+  height: 100%;
+  transform: rotate(-3deg);
+  border-radius: 20px;
+  background-color: rgba(255, 198, 72, 0.33);
+}
+ 
+.contenedor-d {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  background: cornflowerblue;
+}
+ 
+.Bettyyyguidelines {
+  width:  100%;
+  height: 120px;
+  margin: 0 0 20px;
+  padding: 0 0 0 156px;
+  border-radius: 50px;
+  border: solid 2px #faf9f9;
+  background-color: #fdfbfb;
+}
+ 
+ 
+.titulo-c{
+
+margin-left: 50px;
+font-size: 65px;
+}
+
+.contenedor-de-categorias{
+  padding: 60px 0px;
+  width: 1000px;
+  height: 400px;
+
+ position: relative;
+ margin: 10px 0px;
+ 
+ 
+  
+ 
+}
+.contenedor-categoria-individal{
+  position: relative;
+    
+  }
+  .contenido-menu-cat{
+    width: 900px;
+    height: 300px;
+    margin: 40px 0px ;
+    border-radius: 70px;
+    background:#fa394a;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 50px;
+    display: flex;
+    color: #ffffff;
+  }
+  .contenido-menu-cat h1{
+    font-size: 46px;
+  }
+  .contenido-menu-cat p{
+    font-size: 33px;
+  }
+  
+.temas-menu-box{
+width: 500px;
+height: 100px;
+padding-top: 75px;
+padding-left: 50px;
+  }
+  .betty-food-party-banner {
+
+    width: 800px;
+    height: 100%;
+    border-radius: 70px;
+     padding-left:120px;
+  }
+.fondo-categoria{
+  width: 860px;
+  height: 300px;
+  border-radius: 70px;
+  transform: rotate(-6deg);
+  background-color: rgba(250, 57, 74, 0.33);
+  position: absolute;
+  z-index: 1;
+  top: 55px;
+  left: 50px;
+}
+
+.box-fondo-categoria{
+top:100px;
+left: 0px;
+}
+/*Categorias del menu arriba*/
+footer{
+  width: 100%;
+  height: 800px;
+
+  position: relative;
+  overflow: hidden;
+  }
+ .box{
+   position: absolute;
+ }
+ .logo-box-fo1{
+top: 650px;
+left: 50px
+ } 
+ .logo-box-fo2{
+top: 600px;
+left: 820px;
+
+ }
+ .Group-12{
+   width: 200px;
+   height: 200px;
+ } 
+ .logo-box-fo3{
+top: 80px;
+left: 400px;
+ }
+ .Bitmap-fo{
+  width: 200px;
+  height: 200px;
+ }
+ .logo-box-msg {
+top: 740px;
+left:60px;
+font-size: 38px;
+ }
+ .logo-box-fo4{
+  top: 350px;
+  left:100px;
+
+ }
+ .logo-box-foesca{
+  width: 800px;
+  height: 180px;
+  border-radius: 20px;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  font-size: 40px;
+   border-radius: 70px;
+}
+.logo-box-foesca p{
+margin-left: 220px;
+/*aqui arriba está el footer*/
+}
+/*Desde aqui empieza la seccion de Categorias*/
+.header-categorias{
+height: 20vh;
+background-image: url(../img/betty-food-burger-banner@3x.png);
+background-size: cover;
+position: relative;
+ 
+ 
+
+}
+
+.logo-box-cat2{
+position: absolute;
+top: 200px;
+left:60px
+}
+.flecha{
+  width: 100px;
+  height: 100px;
+}
+.logo-box-cat3{
+top:0px;
+left: 60px;
+
+}
+ 
+.Combined-Shape-blanco {
+  width: 220px;
+  height: 220px;
+  /* Tamaño del logo blanco de betty*/
+}
+.contenedor-sobre-hamburguesas{
+  padding: 0px 0px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  border-color: #fff;
+  overflow: hidden;
+
+}
+.contenedor-de-hamburguesas{
+  width: 100vh;
+  height: 800px;
+  margin: auto;
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  position: relative;
+}
+.contenedor-de-hamburguesas-arriba{
+display: flex;
+ justify-content: space-evenly;
+
+}
+.box-de-hamburguesas-arriba{
+ 
+width: 560px;
+font-size: 40px;
+top: 50px;
+left: 50px;
+ 
+ 
+}
+
+.imagen-about-burger{
+
+border-radius: 70px;
+height: 300px;
+width: 300px;
+position: relative;
+
+z-index: 2;/*Agregar el z index aqui*/
+}
+.box-de-hamburguesas-arriba-img{
+top:50px;
+left: 640px;
+}
+.imagen-about-burger-fondo{
+  border-radius: 70px;
+  height: 300px;
+  width: 300px;
+  transform: rotate(6deg);
+  border-radius: 70px;
+  background-color: rgba(247, 8, 28, 0.33);
+  z-index: 1;
+  }
+  .box-de-hamburguesas-arriba-img-fondo{
+    top:50px;
+    left: 640px;
+    }
+ /* Aqui arriba esta el fondo de las imagenes*/
+.precio-de-hamburguesas-dos {
+top: 400px;
+left: 0px;
+}
+.precio-de-hamburguesas-cuatro{
+
+top: 300px;
+left: 0px;
+}
+.precio-de-hamburguesas-cinco{
+  top: 450px;
+left: 0px;
+}
+.precio-de-hamburguesas{
+  top: 250px;
+  left: 0px;
+}
+.precio-de-hamburguesas-final{
+  top: 400px;
+  left: 0px;
+   
+}
+.precio-de-hamburguesas-final p{
+  color: #fa394a;
+}
+.precio-de-hamburguesas-dos-final{
+  top: 600px;
+  left: 0px;
+
+}
+.precio-de-hamburguesas-dos-final p{
+  color: #fa394a;
+
+}
+.precio-de-hamburguesas-cinco p{
+  color: #fa394a;
+}.precio-de-hamburguesas-cuatro p{
+  color: #fa394a;
+}
+.titulo-hamburguesas{
+font-size: 70px;
+padding-left: 45px;
+margin-top: 40px;
+border-color: #fff;
+}
+.precio-de-hamburguesas p{
+  color: #fa394a;
+}
+.precio-de-hamburguesas-dos p{
+  color: #fa394a;
+}
+i{
+  color:#fa394a;
+}
+hr{
+  width:870px;
+  opacity: 0.5;
+  margin: auto;
+}
+
+
+.header-afuera{
+position:relative;
+opacity: 0;
+}
+/*Empeiza de aqui abajo el index*/
+.index-betty{
+  width: 100%;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+.index-betty div{
+  padding: 40px 0px;
+ 
+  
+  }
+ .index-betty img {
+   width:220px;
+   height: 80px;
+ }
+ 
+.index-betty {
+  font-size: 47px;
+  text-align: center;
+}
+ .color-avila-burger{
+   font-family:Gilroy-Extrabold;
+  color: #fa394a;
+}
+.section-bitmap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+.boton-index-relative{
+ width: 100%;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.boton-index{
+
+ width: 800px;
+ height: 200px;
+ border-radius: 70px;
+ background-color:#ffc648;
+  margin: 80px 0;
+  z-index: 1;
+  text-align: center; 
+  }
+  .boton-index-fondo{
+  width: 760px;
+ height: 200px;
+ border-radius: 70px;
+ transform: rotate(-3deg);
+  opacity: 0.33;
+  background-color: #ffc648;
+  z-index: 3;}
+  
+  .boton-index p{
+    position: absolute;
+    font-size: 40px;
+    z-index: 6;
+     top :1050px;
+     left: 400px;
+    }
+   
+  .section-meditacion{
+    width: 100%;
+    height:920px;
+     
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     overflow: hidden;
+
+  }
+  .section-meditacion img{
+  width: 653px;
+  }
+  .over-dos{
+    
+    padding-top:20px
+  }
+  .over p {
+    font-size: 40px;
+    color: darkgray;
+     
+  }
+  .over{
+    padding-bottom:110px
+  }
